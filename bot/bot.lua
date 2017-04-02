@@ -1,5 +1,5 @@
--- #Beyond UniQue Robot
--- #@BeyondTeam
+-- #ACCESS DENIED ROBOT
+-- #@ACCESS_DENIED_TM
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -105,33 +105,16 @@ function create_config( )
 	cmd = '^[/!#]',
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond UniQue v4.4
+    info_text = [[Access Denied Robot
 An advanced administration bot based on https://valtman.name/telegram-cli
 
-》https://github.com/BeyondTeam/BDUniQue
-
+》https://github.com/Alireza81531/AccessDeniedTeam
 》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer《
-》@Rixel ➣ Developer 《
-》@Exacute ➣ Developer《
-》@To0fan ➣ Developer《
-》@CiveY ➣ Developer
-》@K_a_I_i_I_i_n_u_x ➣ Developer《
-》@ArmanDev ➣ Manager《
-》@MrPars ➣ Manager《
-
-》Special thanks to :
-》@Vysheng
-》@MrHalix
-》@Nero_Dev
-》And Beyond Team Members
+》@AcCes3 ➣ Creator《
 
 》Our channel :
-》@BeyondTeam《
+》@ACCESS_DENIED_TM
 
-》Our website :
-》http://BeyondTeam.ir
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
